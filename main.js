@@ -1,9 +1,18 @@
-const product = 'Socks'
-
-const app = Vue.createApp ({
+const app = Vue.createApp({
   data() {
     return {
-      product: "Socks"
+      cart: [],
+      premium: true
+    }
+  },
+  methods: {
+    addToCart(id){
+      this.cart.push(id);
+      console.log(this.cart)
+    },
+    removeFromCart(){
+      this.cart.pop();
     }
   }
+
 })

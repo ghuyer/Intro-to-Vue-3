@@ -9,7 +9,7 @@ body {
   margin: 30px;
   background-color: #39495c;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 15px;
   width: 160px;
   height: 60px;
   color: white;
@@ -44,6 +44,9 @@ body {
 .disabledButton {
   background-color: #d8d8d8;
   cursor: not-allowed;
+}
+.emptyCartButton {
+  display: none;
 }
 
 h1 {
